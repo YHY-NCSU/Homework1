@@ -1,5 +1,5 @@
-https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[![Build Status](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
-https://img.shields.io/github/MIT/{username}/{repo-name}.svg
+[![License](https://img.shields.io/github/license/YHY-NCSU/Homework1.svg?style=for-the-badge)](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
+[![Build Status](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
