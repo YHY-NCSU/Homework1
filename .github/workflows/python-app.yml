@@ -1,17 +1,19 @@
 name: Python application
 
+# Trigger the workflow on push to any branch or on a pull request
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  push:  # Triggers on any push
+    branches: 
+      - "**"  # This matches any branch, you can specify a branch like "main" if you prefer
+  pull_request:  # Triggers on pull requests
+    branches: 
+      - "**"  # This matches any branch, you can specify a branch like "main" if you prefer
 
 permissions:
   contents: read
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -33,5 +35,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pip install pytest pytest-cov
         pytest test.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
