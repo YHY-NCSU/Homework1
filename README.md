@@ -4,4 +4,4 @@
 
 [![Build Status](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
 
-[![Python application](https://github.com/YHY-NCSU/Homework1/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/YHY-NCSU/Homework1/actions/workflows/python-app.yml)
+[![Workflow Status](https://github.com/YHY-NCSU/Homework1/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/YHY-NCSU/Homework1/actions/workflows/python-app.yml)
